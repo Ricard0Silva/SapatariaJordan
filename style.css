@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.desconto-frete {
+    width: 100%;
+    height: 50px;
+    color: #F9F9F9;
+    font-size: 18px;
+    background: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nome-loja {
+    width: 100%;
+    height: 50px;
+    color: #181818;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    background: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    height: 280px;
+    background-image: url(./src/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.info-baner {
+    width: 100%;
+    height: 280px;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12%;
+}
+
+.info-baner h1 {
+    color: #F9F9F9;
+    line-height: 196.19%;
+}
+
+.info-baner p {
+    color: #F9F9F9;
+    line-height: 196.19%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.title-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-card h3 {
+    color: #181818;
+    line-height: 196.19%;
+    font-size: 24px;
+}
+
+.title-card p {
+    color: #474747;
+    line-height: 196.19%;
+    font-size: 16px;
+}
+
+.card-shoes {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3%;
+    transition: transform 0.3s;
+}
+
+.shoes {
+    background: #EBE9EA;
+    width: 260px;
+    height: 270px;
+    margin-top: 20px;
+}
+
+img {
+    width: 100%;
+    margin-top: 20%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background: #181818;
+    margin-top: 8%;
+}
+
+footer p {
+    font-size: 16px;
+    color: #F9F9F9;
+}
+
