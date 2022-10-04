@@ -1,6 +1,8 @@
 ﻿# SapatariaJordan
 #Codelândia Desafio 02.
 
+[Clique aqui para ver o projeto](https://ricard0silva.github.io/SapatariaJordan/)
+
 Projeto construído a partir do desafio lançado pela comunidade Codelândia atravéis do figma.
 
 uma loja de sapatos Jordan, responsive.👟
